@@ -1,11 +1,11 @@
-# FileDropper
+# ContentInjector
 
 
 <p align="center">
   <img width="500" height="500" alt="image" src="https://github.com/user-attachments/assets/e7ab6fc6-a3ac-4551-b871-307b7c1e9b5d" />
 </p>
 
-FileDropper is a Burp Suite extension that allows pentesters and security researchers to quickly load the contents of a file into HTTP requests or responses. With just a few clicks from the context menu, you can insert raw or Base64-encoded data at your cursor position or replace selected text, streamlining testing workflows and payload injection.
+ContentInjector is a Burp Suite extension designed to streamline testing of file upload functionalities and HTTP content manipulation. It allows pentesters and security researchers to quickly load the contents of a file into HTTP requests or responses. With just a few clicks from the context menu, you can insert raw or Base64-encoded data at your cursor position or replace selected text, streamlining testing workflows and payload injection. The extension also enables users to highlight and replace MIME types using a predefined list of common MIME types, making content-type manipulation faster and more consistent.
 
 ## Features
 * Context Menu Integration – Right-click in Repeater, Proxy, or other editors to access the extension.
