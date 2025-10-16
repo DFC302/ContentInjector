@@ -8,7 +8,7 @@ class BurpExtender(IBurpExtender, IContextMenuFactory):
     def registerExtenderCallbacks(self, callbacks):
         self.callbacks = callbacks
         self.helpers = callbacks.getHelpers()
-        callbacks.setExtensionName("FileDropper")
+        callbacks.setExtensionName("ContentInjector")
         callbacks.registerContextMenuFactory(self)
         self.last_dir = None
 
