@@ -13,7 +13,7 @@ ContentInjector is a Burp Suite extension designed to streamline testing of file
 ## Installation
 1. Open Burp Suite and go to Extender → Extensions.
 2. Click Add, select Python (Jython) as the extension type.
-3. Load the FileDropper.py file.
+3. Load the ContentInjector.py file.
 
 ## Usage
 1. Right-click inside a request or response editor.
